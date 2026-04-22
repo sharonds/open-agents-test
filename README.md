@@ -11,7 +11,7 @@ A minimal todo list demo, used as a target repo for [Vercel Open Agents](https:/
 
 ## Live demo
 
-[live URL — will be filled in after deploy]
+https://open-agents-test-psi.vercel.app
 
 ## Why this exists
 

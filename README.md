@@ -1,12 +1,39 @@
 # open-agents-test
 
-Sandbox repo for testing the [Open Agents](https://github.com/vercel-labs/open-agents) template deployed at https://open-agents-sharons-projects-fca19fb6.vercel.app
+A minimal todo list demo, used as a target repo for [Vercel Open Agents](https://github.com/vercel-labs/open-agents) — the open-source reference app for AI coding agents.
 
-The `open-agents-sharon` GitHub App is installed here so the agent can read the code, create branches, open pull requests, and comment on issues — all inside this repo only.
+## What it does
 
-## Try it
+- Add, check off, and delete todos
+- State persists in localStorage
+- Next.js App Router, TypeScript, Tailwind CSS
+- No backend, no database, no auth
 
-1. Go to the Open Agents UI
-2. Pick this repo
-3. Give the agent a task like "Add a simple about section to this README"
-4. Watch it open a PR
+## Live demo
+
+[live URL — will be filled in after deploy]
+
+## Why this exists
+
+This repo is the demo target in a YouTube tutorial on Vercel Open Agents. In the video, we give Open Agents a prompt ("add a dark mode toggle") and watch it:
+
+1. Clone this repo into a Vercel Sandbox
+2. Read the existing code
+3. Add the feature (new state, toggle button, Tailwind dark: classes)
+4. Create a branch + commit + push
+5. Open a pull request
+
+The goal is to show what Open Agents' full stack (Sandbox, Workflow SDK, Fluid Compute, AI SDK) can actually do on a real working codebase.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open http://localhost:3000
+
+## License
+
+MIT
